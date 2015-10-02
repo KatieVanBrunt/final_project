@@ -1,0 +1,66 @@
+#Wrap {
+	min-height: 100%;
+	height: auto;
+	margin:0 auto -100px;
+	padding:64px 0 100px;
+
+}
+
+#colorbar {
+	width: 100%;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	z-index:2147483647;
+
+}
+
+#colorbar div{
+	height:8px;
+	width: 8.33333%;
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+.yellow {
+	background:#f2ea00;
+}
+.amber {
+	background: #ebce13;
+}
+.orange{
+	background: #f0aa14; 
+}
+.sunset {
+	background: #f08630;
+}
+.red {
+	background: #f07a60;
+}
+.fuchsia {
+	background: #ee78f0;
+}
+.purple {
+	background:#bd90f0;
+}
+
+.indigo {
+	background: #9092f0;
+}
+.blue {
+	background: #7fbadc;
+}
+.aqua {
+	background: #90f0e3;
+}
+.green {
+	background: #91d271;
+}
+.lime {
+	background: #c5f060;
+}
+
+
+
+
+
