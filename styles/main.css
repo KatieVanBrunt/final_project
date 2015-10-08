@@ -1,0 +1,187 @@
+#Wrap {
+	min-height: 100%;
+	height: auto;
+	margin:0 auto -100px;
+	padding:64px 0 44px;
+
+}
+
+#colorbar {
+	width: 100%;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	z-index:2147483647;
+
+}
+
+#colorbar div{
+	height:8px;
+	width: 8.33333%;
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+.yellow {
+	background:#f2ea00;
+}
+.amber {
+	background: #ebce13;
+}
+.orange{
+	background: #f0aa14; 
+}
+.sunset {
+	background: #f08630;
+}
+.red {
+	background: #f07a60;
+}
+.fuchsia {
+	background: #ee78f0;
+}
+.purple {
+	background:#bd90f0;
+}
+
+.indigo {
+	background: #9092f0;
+}
+.blue {
+	background: #7fbadc;
+}
+.aqua {
+	background: #90f0e3;
+}
+.green {
+	background: #91d271;
+}
+.lime {
+	background: #c5f060;
+}
+
+/* nav section */
+
+.kvb-nav {
+	background-color: ##C7C7C7;
+}
+a {
+	color:#d3d3d3;
+
+}
+
+/* footer section */
+
+.body-container{
+	position: fixed;
+	width: 100%;
+	height: 80vh;
+	font-family:'Slabo 27px', serif;
+	color: #FFF8DC;
+	font-weight: bold;
+	/*font-size: 90px;*/
+	/*margin-left: 20%;
+	margin-right: 20%;*/
+}
+
+.nyc_h{
+	font-size: 90px
+}
+
+/****       Chsow   ******/
+
+.nyc{
+	/*background-color: rgba(0.5);
+	color: #d3d3d3;*/
+	text-align: center;
+	padding: 10px;
+	font-family:'Slabo 27px', serif;
+	font-size: 40px;
+	/*font-color: white;*/
+/*	font-weight: bolder;
+*/}
+  
+.oText {
+	background-color: rgba(56,56,56,.7);
+	 
+}
+
+.la_h{
+	font-size: 90px
+}
+.la{
+	text-align: center;
+	padding: 10px;
+	font-family:'Slabo 27px', serif;
+	font-size: 40px;
+}
+
+.chi_h{
+	font-size: 90px
+}
+
+.chi{
+	text-align: center;
+	padding: 10px;
+	font-family:'Slabo 27px', serif;
+	font-size: 40px;
+}
+.bos_h{
+	font-size: 90px
+}
+.bos{
+
+	text-align: center;
+	padding: 10px;
+	font-family:'Slabo 27px', serif;
+	font-size: 40px;;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+	text-align: left;
+
+}
+
+table-caption {
+	padding: .5em 0;
+}
+
+@media screen and (max-width: 767px) {
+  table caption {
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.p {
+  text-align: center;
+  padding-top: 140px;
+  font-size: 14px;
+}
+
+/* CONTAINER- BOOTSTRAP -->
+/*.container-fluid {
+	background-color: red;
+}*/
+
+/*.col-md-1 {
+	width:100%;
+}*/
+
+/*body {
+	size:9px;
+}*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #C7C7C7;	 
+}
+
+
+
